@@ -10,10 +10,10 @@
     name: mysql-server
     state: present
 - name: install boto3 botocore
-  pip:
-  - name:
-    - boto3
-    - botocore
+  ansible.builtin.pip:
+    name:
+      - boto3
+      - botocore
     executable: pip3.9
 - name: start and enable mysql server
   service:
