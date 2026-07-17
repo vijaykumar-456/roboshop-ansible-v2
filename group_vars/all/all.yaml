@@ -6,3 +6,4 @@ CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.learndevopskills.shop
 CART_HOST: cart.backend-alb-{{ env }}.learndevopskills.shop
 SHIPPING_HOST: shipping.backend-alb-{{ env }}.learndevopskills.shop
 PAYMENT_HOST: payment.backend-alb-{{ env }}.learndevopskills.shop
+USER_HOST: user.backend-alb-{{ env }}.learndevopskills.shop
